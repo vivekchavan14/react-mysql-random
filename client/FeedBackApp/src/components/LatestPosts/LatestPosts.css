@@ -1,0 +1,48 @@
+/* CSS for LatestPosts component */
+
+/* Style for the container div */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the main heading */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the list of posts */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each individual post */
+  li {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  /* Style for post title */
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for post content */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Style for the user */
+  p:last-child {
+    color: #777;
+    font-style: italic;
+  }
+  
